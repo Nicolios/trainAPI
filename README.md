@@ -62,3 +62,27 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Subject
+
+Cette étude de cas concerne un système simplifié de réservation de train pour une agence de voyage. Les rencontres avec les futurs utilisateurs et les experts ont permis de résumer la connaissance du domaine avec les phrases suivantes :
+
+1.des compagnies proposent différents trains
+2. un train est ouvert à la réservation et refermé sur ordre de la compagnie
+3. un client peut réserver un ou plusieurs trains pour des passagers différents
+4. une réservation concerne un seul train et un seul passager
+5. une réservation peut-être annulée ou confirmée
+6. un train a une gare de départ ou une gare d'arrivée
+7. un train a un jour et une heure de départ, et un jour et une heure d'arrivée
+8. un train peut comporter des arrêts dans des gares
+9. un arrêt a une heure d'arrivée et une heure de départ
+10. chaque gare dessert une ou plusieurs villes
+
+Vous devez créer les Webservices REST afin de donner accès à une agence de réservations,
+vous devrez pouvoir
+Créer une réservation d'un voyage vers une destination directe
+Créer une réservation d'un voyage avec étapes prédéfinies (Exemple : Montpellier, Marseille, Nice, Paris, Montpellier)  
+Modifier le nombre de passagers pour une réservation
+
+Vous pouvez utiliser le langage de votre choix pour ce TP, Vous pouvez créer un client formulaire ou utiliser Postman pour tester.
+Bonus : Utilisation de Swagger 
